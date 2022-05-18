@@ -1,0 +1,144 @@
+.main-nav{
+    background-color: #609F10;
+    padding: 30px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.flexcontainer{
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+.flex-1{
+    flex: 15%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.flex-1i{
+    flex: 40%;
+    margin: 0px 20px;
+}
+.flex-1ii{
+    flex: 20%;
+}
+.search-box{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 85%;
+    margin: auto;
+}
+.search-inp{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #999999;
+    padding: 13px 10px 12px 18px;
+    background-color: transparent;
+    width: 60%;
+}
+.search-btn{
+    background-color: #f7d20f;
+    float: right;
+    padding: 10px 20px 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.head-user{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.user-img-box{
+    display: inline-block;
+}
+.cart-img-box{
+    margin-left: 10px;
+    display: inline-block;
+}
+.head-user i{
+    font-size: 28px;
+}
+.sec-nav-box{
+    padding: 20px 0px 0px;
+}
+.flexcontainer-wid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-2{
+    flex: 20%;
+}
+.flex-2i{
+    flex: 75%;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.flex-6-wid{
+    width: 23%;
+}
+.cate-btn-head{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1a1a1a;
+    background-color: #f7d20f;
+    padding: 8px 20px 12px;
+    border-radius: 25px;
+    width: fit-content;
+    cursor: pointer;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    transition: .3s all ease;
+}
+.nav-link:hover{
+    color: #f7d20f;
+    transition: .3s all ease;
+}
+.logo{
+    width: 70%;
+}
+.cate-btn-box{
+    position: relative;
+    width: fit-content;
+}
+.drop-down-main-box{
+    background-color: rgba(255,255,255,.9);
+    width: 300px;
+    position: absolute;
+}
+.single-cate-drop{
+    border-bottom: 1px solid #999999;
+}
+.drop-link{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.allcat-img{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.drop-prd-wr{
+    display: inline-block;
+    width: 70%;
+    margin-left: 8px;
+}
+.cat-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.drop-box-link{
+    width: 100%;
+    padding: 10px;
+}
