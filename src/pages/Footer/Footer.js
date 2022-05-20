@@ -74,14 +74,21 @@ const Footer = () => {
             <div className='social-box'>
                 <a href='' className='soc-link'>
                     <div className='social-icon'>
-                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
                     </div>
                 </a>
             </div>
             <div className='social-box'>
                 <a href='' className='soc-link'>
                     <div className='social-icon'>
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </a>
+            </div>
+            <div className='social-box'>
+                <a href='' className='soc-link'>
+                    <div className='social-icon'>
+                    <i class="fa-brands fa-twitter"></i>
                     </div>
                 </a>
             </div>

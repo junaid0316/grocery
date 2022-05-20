@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../images/logo.png'
 import categoryimg from '../../images/cate_img.png'
+import Marquee from "react-fast-marquee";
+import logindp from '../../images/dp.jpg'
 
 const Navbar = () => {
 
@@ -23,7 +25,10 @@ const Navbar = () => {
             <div className='flex-1ii'>
                 <div className='head-user'>
                     <div className='user-img-box'>
-                    <i class="fa-solid fa-user-tie"></i> User
+                        <div className='img-box'>
+                        <img src={logindp} className='dplog'/> 
+                        </div>
+                        <div className='user-wr'>User</div>
                     </div>
                     <div className='cart-img-box'>
                     <i class="fa-solid fa-cart-arrow-down"></i> Cart
@@ -35,7 +40,7 @@ const Navbar = () => {
             <div className='flex-2'>
                 <div className='cate-btn-box' onMouseOver={()=>{setshowdrop(true)}} onMouseOut={()=>{setshowdrop(false)}}>
                 <div className='cate-btn-head' >
-                <i class="fa-solid fa-grip-lines"></i> Categories <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-grip-lines"></i> <span className='cate-he'>Categories</span> <i class="fa-solid fa-caret-down"></i>
                 </div>
                 {showdrop?<div className='drop-down-main-box'>
                     <div className='single-cate-drop'>
@@ -127,6 +132,14 @@ const Navbar = () => {
                     <div className='flex-6-wid'>
                     <NavLink to='/' className='nav-link'>NEW PRODUCTS</NavLink>
                     </div>
+                </div>
+            </div>
+            <div className='flex-2ii'>
+                <div className='sliding-add'>
+                <i class="fa-solid fa-location-dot"></i>
+                <Marquee className='mov-marquee' direction='left' gradient={false} speed='40'>
+  Gulistan-e-Johar Block-17
+</Marquee>
                 </div>
             </div>
         </div>

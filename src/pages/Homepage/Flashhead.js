@@ -19,11 +19,6 @@ const Flashhead = ({expiryTimestamp}) => {
             <span className='yellow-time'>{minutes}</span>
             <span className='green-time'>{seconds}</span>
         </div>
-        <div className='showmore-link'>
-            <Link to='/' className='link-show'>
-                Show More <i class="fa-solid fa-caret-right"></i>
-            </Link>
-        </div>
     </div>
   )
 }

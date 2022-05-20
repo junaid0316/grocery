@@ -9,7 +9,7 @@ const Oneprd = () => {
             <div className='prd-one-main'>
                 <img src={prdimg} className='prd-img'/>
                 <div className='prd-wr-box'>
-                <div className='prd-name'>Onions</div>
+                <div className='prd-name-sing'>Onions</div>
                 <div className='pri-box'>
                     <span className='pri-prd'>Rs. 700/-</span> <del>Rs. 800/-</del>
                 </div>

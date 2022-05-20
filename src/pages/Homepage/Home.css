@@ -12,13 +12,13 @@
 }
 .head-h1{
     width: fit-content;
-    background-color: #f7d20f;
+    background-color: #f6b116;
     border-radius: 25px;
     padding: 2px 18px 6px;
     margin: auto;
 }
 .category-main{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(223, 223, 223);
     padding: 20px;
     border-radius: 10px;
 }
@@ -61,8 +61,11 @@
     font-size: 34px;
     font-weight: bold;
 }
+.flash-wr{
+    font-size: 14px;
+}
 .light-ico{
-    color: #f7d20f;
+    color: #f6b116;
     margin: 0px 5px;
     font-size: 46px;
 }
@@ -77,7 +80,7 @@
     justify-content: center;
 }
 .yellow-time{
-    background-color: #f7d20f;
+    background-color: #f6b116;
     border-radius: 4px;
     height: 50px;
     width: 50px;
@@ -116,17 +119,25 @@
 }
 .sale_img{
     width: 100%;
-    height: 230px;
+    height: 200px;
 }
 .sale-bg-box{
     background-color: #609F10;
     padding: 8px;
 }
 .item-name{
-    font-size: 17px;
+    font-size: 15px;
+}
+.subcate-rel{
+    position: relative;
+}
+.show-ab{
+    position: absolute;
+    top: -40px;
+    right: 14px;
 }
 .actual-pri{
-    background-color: #f7d20f;
+    background-color: #f6b116;
     padding: 3px 5px;
     color: #1a1a1a;
     font-weight: bold;
@@ -136,19 +147,19 @@
     margin: 10px 0px;
 }
 .percent-off{
-    background-color: #f7d20f;
+    background-color: #f6b116;
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     color: #1a1a1a;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     font-size: 22px;
-    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 30px;
 }
 .flex-3-wid{
     width: 47%;
@@ -176,6 +187,7 @@
 }
 .flex-5-wid{
     width: 18.5%;
+    margin-bottom: 20px;
 }
 .prd-link{
     text-decoration: none;
@@ -195,8 +207,8 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.prd-name{
-    font-size: 17px;
+.prd-name-sing{
+    font-size: 16px;
 }
 .pri-prd{
     background-color: #609F10;

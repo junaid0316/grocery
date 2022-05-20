@@ -1,0 +1,163 @@
+.main-checkout{
+    padding: 40px 60px;
+}
+.top-head-wr{
+    display: inline-block;
+    font-size: 20px;
+}
+.sel-box-check{
+    display: inline-block;
+    margin: 0px 25px;
+}
+.del-box-chk{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .25s all ease;
+}
+.del-box-chk:hover{
+    transition: .25s all ease;
+    color: red;
+}
+.sel-all{
+    font-size: 18px;
+    color: #fff;
+    background-color: #609F10;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.chk-box-inp{
+    width: 25px;
+    height: 25px;
+    vertical-align: sub;
+}
+.flexcontainer{
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+.flex-4{
+    flex: 60%;
+}
+.flex-4i{
+    flex: 30%;
+    margin-left: 20px;
+}
+.flex-5{
+    flex: 25%;
+}
+.flex-5i{
+    flex: 45%;
+    margin: 0px 15px;
+}
+.flex-5ii{
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prd-sel-box{
+    border: 1px solid #c4c4c4;
+    padding: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.pos-ab-radio{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.check-img{
+    width: 100px;
+    height: 100px;
+}
+.prd-name{
+    font-size: 20px;
+}
+.chk-pri{
+    background-color: #609F10;
+    border-radius: 15px;
+    padding: 4px 10px 5px;
+    color: #fff;
+}
+.mar-chk{
+    margin: 15px 0px 20px;
+}
+.dis-chk{
+    background-color: #f6b116;
+    padding: 4px 10px 5px;
+    border-radius: 4px;
+    width: fit-content;
+}
+.count-main{
+    padding: 4px;
+    border: 1px solid #e5e5e5;
+    border-radius: 25px;
+    width: fit-content;
+}
+.count-btn{
+    display: inline-block;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer; 
+    font-size: 20px;
+}
+.quantity{
+    width: 25px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+.ord-sum{
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.ord-sum-head{
+    background-color: #609F10;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    width: fit-content;
+    border-radius: 25px;
+    margin: 15px auto 10px;
+}
+.sep-items{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.ord-name{
+    display: inline-block;
+    width: 70%;
+}
+.ord-pri{
+    text-align: right;
+    display: inline-block;
+    width: 25%;
+}
+.ord-total{
+    border-top: 1px solid #c4c4c4;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.pay-to-btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #999999;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+}
